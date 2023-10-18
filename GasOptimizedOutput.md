@@ -1,4 +1,4 @@
-# Gas-Optimization
+# GasOptimized
 
 -Optimized
 gas	34676 gas
