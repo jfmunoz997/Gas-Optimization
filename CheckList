@@ -1,0 +1,27 @@
+1. Useless Code Related Patterns
+2. Loop Related Patterns
+3. You can pack as many state variables in one slot as long as it fits 32 bytes(each storage slot is 32 bytes in size).
+4. Using unchecked
+5. Use calldata instead of memory for function parameters
+  — Calldata is read-only
+  — Memory when you need to modify or store data within the function
+6. Pack & Hash Struct:
+7. Short-circuiting
+8. Uint8 is not always cheaper than uint256
+9. Use bytes32 rather than string/bytes.
+10. Make fewer external calls.
+11. Events are cheaper to store data but you should look out for cost
+12. Using fewer functions can be helpful
+13. Calling internal functions is cheaper
+14. Using proxy patterns for mass deployment
+15. Merkle proofs for reduced storage load
+16. Time of Deployment and init function
+
+Interesting Links
+https://github.com/0xisk/awesome-solidity-gas-optimization
+https://repositum.tuwien.at/bitstream/20.500.12708/1428/2/Brandstaetter%20Tamara%20-%202020%20-%20Optimization%20of%20solidity%20smart%20contracts.pdf
+https://www.evm.codes/?fork=shanghai
+https://eip2535diamonds.substack.com/p/how-eip2535-diamonds-reduces-gas
+
+Tools
+Gasol, gasReducer
