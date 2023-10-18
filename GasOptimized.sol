@@ -2,8 +2,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-// gas golf
-contract GasGolf {
+contract GasOptimized {
 
     uint public total;
 
